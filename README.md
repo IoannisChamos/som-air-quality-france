@@ -29,6 +29,7 @@ Main variables used:
 This filtered dataset was used to detect air quality patterns across French cities and support spatial clustering and visualization.
 
 **Source:** [World Air Quality Index by City and Coordinates (Kaggle)](https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates)
+
 ## Methodology
 The project workflow includes:
 1. Data loading and preprocessing
@@ -46,6 +47,26 @@ The project workflow includes:
 - Southwestern France generally showed better air quality conditions
 - Eastern areas more often showed poorer air quality profiles
 - The Paris metropolitan area displayed strong local variation in air quality
+
+## Visualizations
+
+### Spatial distribution of air quality clusters across France
+![Air quality clusters in France](figures/Air_quality_clusters_France.png)
+
+### Air quality cluster patterns in the Paris metropolitan area
+![Air quality clusters in Paris](figures/Air_quality_clsuters_Paris.png)
+
+### Average air quality indicators across clusters
+![Cluster heatmap](figures/Heatmap_Clusters.png)
+
+### Distribution of PM2.5 AQI values by cluster
+![PM2.5 Boxplot](figures/PM2.5_BOXPLOT.png)
+
+### Elbow method for cluster selection
+![Elbow Method](figures/Elbow_Method.png)
+
+### U-Matrix visualization
+![U-Matrix](figures/U-Matrix.png)
 
 ## Repository Structure
 - `notebooks/` → Jupyter notebook with the full workflow
