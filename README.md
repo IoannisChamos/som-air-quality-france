@@ -13,16 +13,22 @@ The goal of this project is to analyze air quality data from French cities and i
 - Explore local variation in the Paris metropolitan area
 
 ## Dataset
-The dataset used in this project was obtained from Kaggle and includes air quality indicators for cities in France.
+This project uses the Kaggle dataset *World Air Quality Index by City and Coordinates*.
 
-Main variables used in the analysis:
+The original dataset includes air quality observations for cities worldwide. For the purposes of this project, the data was filtered to include only cities in France and the air pollution indicators relevant to the clustering analysis.
+
+Main variables used:
 - AQI
 - PM2.5 AQI
 - CO AQI
 - NO2 AQI
 - Ozone AQI
-- Latitude and Longitude
+- Latitude
+- Longitude
 
+This filtered dataset was used to detect air quality patterns across French cities and support spatial clustering and visualization.
+
+**Source:** [World Air Quality Index by City and Coordinates (Kaggle)](https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates)
 ## Methodology
 The project workflow includes:
 1. Data loading and preprocessing
